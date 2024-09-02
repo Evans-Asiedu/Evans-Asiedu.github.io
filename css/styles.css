@@ -1,0 +1,35 @@
+:root {
+  /* --primary-color: #011d28;
+    --secondary-color: #22dcfd;
+    --accent-color: #1490a8; */
+  --body-color: #161c2d;
+  --body-font: 1.6rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: var(--body-color);
+  font-size: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
