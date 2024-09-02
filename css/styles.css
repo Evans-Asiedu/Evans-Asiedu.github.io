@@ -84,3 +84,68 @@ h6 {
   border-radius: 50%;
   object-fit: fill;
 }
+
+/*  TechStack */
+.skill-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.skill-icon img {
+  width: 40px;
+}
+
+.skill-badge {
+  cursor: pointer;
+  /* width: 2rem; */
+  height: 18px;
+  position: absolute;
+  left: 60%;
+  top: 13%;
+}
+
+.image-container .image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    position: relative;
+  }
+
+  .image-container .image {
+    position: absolute;
+    right: 30px;
+    top: 22rem;
+    width: 320%;
+  }
+
+  .custom-padding-right {
+    padding-right: 8rem;
+  }
+
+  .custom-padding-left {
+    padding-left: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .image-container {
+    position: relative;
+  }
+
+  .image-container .image {
+    position: absolute;
+    right: -10px;
+    top: 10rem;
+    width: 320%;
+  }
+
+  .custom-padding-right {
+    padding-right: 8rem;
+  }
+
+  .custom-padding-left {
+    padding-left: 8rem;
+  }
+}
