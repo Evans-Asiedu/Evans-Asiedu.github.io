@@ -33,3 +33,36 @@ h6 {
   line-height: 1.5;
   font-weight: 600;
 }
+
+/* Navbar */
+.navbar-custom {
+  z-index: 999;
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-custom .logo {
+  color: #343a40;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.navigation .nav-link {
+  color: #343a40;
+  font-size: 2rem;
+  background-color: transparent !important;
+  margin: 0 8px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.nav-social {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-social {
+    display: block;
+  }
+}
