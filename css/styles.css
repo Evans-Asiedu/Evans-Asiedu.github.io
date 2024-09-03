@@ -44,7 +44,7 @@ h6 {
 .navbar-custom .logo {
   color: #343a40;
   font-weight: 700;
-  font-size: 2.2rem;
+  font-size: 3rem;
   letter-spacing: 1px;
 }
 
@@ -61,10 +61,27 @@ h6 {
   display: none;
 }
 
+.list-inline-item > a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.content a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-social {
     display: block;
   }
+}
+
+.block {
+  margin-top: 8rem;
+}
+
+.block-heading {
+  font-size: 3.5rem;
 }
 
 /* hero */
@@ -83,6 +100,20 @@ h6 {
   height: 100%;
   border-radius: 50%;
   object-fit: fill;
+}
+
+/* Services */
+.custom-card-icon {
+  position: absolute;
+  left: 40%;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 5px;
 }
 
 /*  TechStack */
@@ -188,3 +219,9 @@ h6 {
   transition: font-size 0.3s;
   font-weight: bold;
 }
+
+/* Contact */
+/* .icon .bi {
+  width: 30px;
+  height: 30px;
+} */
