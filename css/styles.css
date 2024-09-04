@@ -90,15 +90,14 @@ a {
   font-size: 3.5rem;
 }
 
-/* hero */
+/* About */
 .image-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 260px;
-  max-height: 260px;
-  margin: 15px 0 20px 0;
-
+  width: 270px;
+  max-height: 270px;
+  margin: 5px 0 25px 0;
   padding-left: 20px;
 }
 
@@ -231,9 +230,3 @@ a {
   transition: font-size 0.3s;
   font-weight: bold;
 }
-
-/* Contact */
-/* .icon .bi {
-  width: 30px;
-  height: 30px;
-} */

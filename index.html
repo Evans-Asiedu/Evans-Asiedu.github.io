@@ -28,6 +28,7 @@
     <!-- external css -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Navbar Start -->
@@ -104,12 +105,18 @@
         </header>
 
         <div class="row d-flex justify-content-center">
-          <div class="col-md-5 col-12 text-center text-md-left image-container">
-            <img src="images/evans_asiedu.jpg" alt="Evans Kesse Asiedu" />
+          <div
+            class="col-md-5 col-12 text-center text-md-left image-container"
+            data-aos="slide-right"
+            data-aos-duration="2500"
+          >
+            <img src="images/evans_asiedu@2.jpg" alt="Evans Kesse Asiedu" />
           </div>
 
           <div
             class="col-md-7 col-12 text-justify text-center text-md-start pt-md-5 ms-md-5"
+            data-aos="slide-left"
+            data-aos-duration="2500"
           >
             <h3 class="mb-5">Hey, I'm Evans</h3>
             <p>
@@ -139,8 +146,12 @@
           <p class="block-text mt-5">A showcase of my work scope</p>
         </header>
         <div class="row g-3">
-          <div class="col-md-4 col-12 mt-4 pt-4">
-            <!-- first project -->
+          <div
+            class="col-md-4 col-12 mt-4 pt-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <!-- first service -->
             <div class="card text-center bg-light">
               <div class="custom-card-icon" style="position: relative">
                 <!-- <i class="bi bi-phone fs-1"></i> -->
@@ -157,8 +168,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-12 mt-4 pt-4">
-            <!-- second project -->
+          <div
+            class="col-md-4 col-12 mt-4 pt-4"
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+          >
+            <!-- second service -->
             <div class="card text-center bg-light">
               <div class="custom-card-icon" style="position: relative">
                 <!-- <i class="bi bi-phone fs-1"></i> -->
@@ -175,8 +190,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-12 mt-4 pt-4 text-center">
-            <!-- third project -->
+          <div
+            class="col-md-4 col-12 mt-4 pt-4 text-center"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
+            <!-- third service -->
             <div class="card bg-light">
               <div class="custom-card-icon" style="position: relative">
                 <img src="images/app-development.png" alt="" />
@@ -208,156 +227,157 @@
               <p class="mt-4">Languages I love to work with</p>
             </div>
             <!-- first row-->
-            <div class="row">
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                        alt="html"
-                        class="img-fluid"
-                      />
+            <div data-aos="slide-right" data-aos-duration="2000">
+              <div class="row">
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                          alt="html"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Html5</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">Html5</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                          alt="css"
+                          class="img-fluid mx-auto my-4"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Css3</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                          alt="javascript"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                          alt="TypeScript"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">TypeScript</span>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css"
-                        class="img-fluid mx-auto my-4"
-                      />
+              <!-- second row-->
+              <div class="row">
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 text-center bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                          alt="next"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Next</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">Css3</span>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                        alt="javascript"
-                        class="img-fluid"
-                      />
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                          alt="Ruby"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">React</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">JavaScript</span>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
-                        alt="TypeScript"
-                        class="img-fluid"
-                      />
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
+                          alt="dart"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Dart</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">TypeScript</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+                          alt="Ruby"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Flutter</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- second row-->
-            <div class="row">
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 text-center bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-                        alt="next"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Next</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-                        alt="Ruby"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">React</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
-                        alt="dart"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Dart</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
-                        alt="Ruby"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Flutter</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- third row-->
           </div>
           <!-- end of languages -->
 
@@ -367,159 +387,159 @@
               <h2 class="block-heading">Tools</h2>
               <p class="mt-4">Some of the tools I use</p>
             </div>
-            <!--first row-->
-            <div class="row">
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                        alt="mysql"
-                        class="img-fluid"
-                      />
+            <div data-aos="slide-left" data-aos-duration="2000">
+              <!--first row-->
+              <div class="row">
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                          alt="mysql"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">MySQL</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">MySQL</span>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-                        alt="mongodb"
-                        class="img-fluid"
-                      />
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                          alt="mongodb"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">MongoDB</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">MongoDB</span>
                   </div>
                 </div>
-              </div>
 
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-                        alt="git"
-                        class="img-fluid"
-                      />
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                          alt="git"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Git</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">Git</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+                          alt="docker"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Docker</span>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
-                        alt="docker"
-                        class="img-fluid"
-                      />
+              <!--second row-->
+              <div class="row">
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                          alt="redis"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Bootstrap</span>
                     </div>
-                    <span class="badge skill-badge bg-dark">Docker</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                          alt="tailwindcss"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Tailwind</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                          alt="postman"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Postman</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-6 mt-4 pt-2">
+                  <div
+                    class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
+                  >
+                    <div class="card-body p-0">
+                      <div
+                        class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
+                      >
+                        <img
+                          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+                          alt="firebase"
+                          class="img-fluid"
+                        />
+                      </div>
+                      <span class="badge skill-badge bg-dark">Firebase</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!--second row-->
-            <div class="row">
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
-                        alt="redis"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Bootstrap</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-                        alt="tailwindcss"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Tailwind</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
-                        alt="postman"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Postman</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6 mt-4 pt-2">
-                <div
-                  class="card border-0 bg-white p-3 d-flex justify-content-center align-items-center"
-                >
-                  <div class="card-body p-0">
-                    <div
-                      class="skill-icon rounded-circle shadow-lg d-flex justify-content-center align-items-center"
-                    >
-                      <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
-                        alt="firebase"
-                        class="img-fluid"
-                      />
-                    </div>
-                    <span class="badge skill-badge bg-dark">Firebase</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--third row-->
-            <div class="row"></div>
           </div>
           <!-- end of tools -->
         </div>
@@ -535,7 +555,11 @@
           <p class="block-text mt-5">A showcase of projects I have worked on</p>
         </header>
         <div class="row g-3 block-container mx-auto">
-          <div class="col-md-4 col-12 mt-4 pt-4">
+          <div
+            class="col-md-4 col-12 mt-4 pt-4"
+            data-aos="flip-right"
+            data-aos-duration="3000"
+          >
             <!-- first project -->
             <div
               class="card border-0 d-block overflow-hidden rounded bg-light showcase py-1"
@@ -610,7 +634,11 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-12 mt-4 pt-4">
+          <div
+            class="col-md-4 col-12 mt-4 pt-4"
+            data-aos="flip-left"
+            data-aos-duration="3000"
+          >
             <!-- third project -->
             <div
               class="card border-0 d-block overflow-hidden rounded bg-light showcase py-2"
@@ -678,7 +706,11 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-12 mt-4 pt-4">
+          <div
+            class="col-md-4 col-12 mt-4 pt-4"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             <!-- fifth project -->
             <div
               class="card border-0 d-block overflow-hidden rounded bg-light showcase py-1"
@@ -839,7 +871,11 @@
     <!-- End of contact -->
 
     <!-- Footer Start -->
-    <footer class="block footer bg-light pb-2">
+    <footer
+      class="block footer bg-light pb-2"
+      data-aos="flip-down"
+      data-aos-duration="1500"
+    >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
@@ -882,5 +918,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
