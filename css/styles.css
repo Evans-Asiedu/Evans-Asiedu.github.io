@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #232946;
-  --secondary-color: #b8c1ec;
-  --accent-color: #eebbc3;
+  --primary-color: #24114c;
+  --secondary-color: #084374;
+  --accent-color: #000;
   --headline-color: #fffffe;
   --body-font: 1.6rem;
 }
@@ -19,8 +19,13 @@ html {
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  background-color: var(--secondary-color);
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--secondary-color)
+  );
   font-size: var(--body-font);
+  color: rgb(165 180 252);
 }
 
 h1,
@@ -40,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: rgb(165 180 252);
 }
 
 .custom-bg-primary {
@@ -58,7 +63,7 @@ a:hover {
 /* Navbar */
 .navbar-custom {
   z-index: 999;
-  background-color: var(--primary-color);
+  background-color: var(--accent-color);
   border: 0;
 }
 
@@ -82,7 +87,7 @@ a:hover {
 }
 
 .navigation .nav-link:hover {
-  color: var(--secondary-color);
+  color: rgb(165 180 252);
 }
 
 .nav-social {
