@@ -130,9 +130,15 @@ a:hover {
 
 .image-container img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   border-radius: 50%;
   object-fit: fill;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    margin: 35px 0 25px 0;
+  }
 }
 
 /* Services */
@@ -154,7 +160,26 @@ a:hover {
   height: 50%;
 }
 
+.custom-bg {
+  /* background-color: #1e3a8a; */
+  /* background-color: var(--headline-color); */
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
 /*  TechStack */
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  color: var(--headline-color);
+  background-color: #1e3a8a;
+}
 .skill-icon {
   width: 75px;
   height: 75px;
